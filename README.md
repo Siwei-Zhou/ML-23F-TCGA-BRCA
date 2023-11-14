@@ -14,3 +14,9 @@ File Size: 5.22 GB
 ### 1 - merge data - Merge_data.ipynb
 1. Merge gdc_sample_sheet.tsv (Case ID) with clinical.tsv (case_submitter_id) 
 2. Add File name from gdc_sample_sheet into clinical.tsv termed as file_id
+
+
+### 2 - compile data - Data_compiling.ipynb
+1. Extract tpm_unstranded column of 1231 sample and combine them into 1 csv file combined_tpm_unstranded.csv (not on github due to file size)
+2. Name the column with the file name of each file
+3. Add common column gene_name and gene_type
